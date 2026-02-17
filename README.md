@@ -1,8 +1,6 @@
 # 🐾 Smart Cat Feeder (ESP32 + MQTT + Node-RED)
 Effortlessly keep your feline friends fed with this automated cat feeder powered by ESP32, MQTT, and Node-RED. Revolutionize your pet care with real-time monitoring, customization, and automated feeding on schedule! 
-
-![Smart Cat Feeder Setup](https://via.placeholder.com/800x400?text=Smart+Cat+Feeder+Visual+Demo)  
-*Visual representation of the Smart Cat Feeder in action*
+<img width="1536" height="1536" alt="image" src="https://github.com/user-attachments/assets/d0530956-9731-404d-9691-b11d5ed34024" />
 
 ---
 
@@ -41,6 +39,7 @@ Effortlessly keep your feline friends fed with this automated cat feeder powered
 | **Servo Motor**   | Powered via 5V with control on pin 4       |
 | **LED**           | Indicator at pin 2                         |
 | **Power Supply**  | 5V shared supply for sensor & actuator     |
+<img width="984" height="615" alt="image" src="https://github.com/user-attachments/assets/367a062b-fe88-40f4-9d84-e59fc55b91d4" />
 
 ---
 
@@ -90,6 +89,7 @@ Create `petfeeder.db` with tables for:
 - **Bowl Distance** (`bol` - distance in cm)
 - **Reservoir Distance** (`reservoir` - distance in cm)
 - **Consumption** (`consommation` - grams consumed)
+<img width="1125" height="618" alt="image" src="https://github.com/user-attachments/assets/cb20d0cf-1371-47b4-bd9e-4ff76cfd850a" />
 
 ### Set Telegram Alerts
 Use `PetFeederBot` credentials in the Telegram Sender Node of Node-RED.
